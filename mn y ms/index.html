@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Document</title>
+    <script>
+        function cambiar() {
+            document.body.style.backgroundColor = "red";
+        }
+    </script>
+</head>
+<body id="body" style="background-color:#f0ede3;">
+    <center>
+        <div class="container">
+            <div class="rows no-gutters">
+                <div class="01" style="display: flex; justify-content: center;">
+                    <div class="col-4 p-0 m-0">
+                        <img src="/image-product-desktop.jpg" style="width:375px;border-radius: 8px;border-top-right-radius:0; border-bottom-right-radius:0;">
+                    </div>
+                    <div class="col-4 p-5 m-0" style="margin-right: auto; background-color: white;" align="left">
+                        <h6 style="letter-spacing: 4px;">PERFUME</h6>
+                        <h1>Gabrielle Essence Eau De Parfum</h1>
+                        <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House Of CHANEL.</p>
+                        <div class="precio" style="display:flex;">
+                            <h1>$149.99</h1>
+                            <p><s>$169.99</s></p>
+                        </div>
+                        <button id="fondo-boton" style="background-color: green;color:white;border:0;padding:10px;width:100%;border-radius: 5px;" onclick="cambiar();">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </center>
+</body>
+</html>
